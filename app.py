@@ -2,7 +2,6 @@
 """
 Created on Tue Apr  6 15:15:28 2021
 
-@author: deepak
 """
 import streamlit as st 
 from PIL import Image
@@ -51,8 +50,8 @@ def main():
       result=predict_note_authentication(UserID, Gender,Age,EstimatedSalary)
       st.success('Model has predicted {}'.format(result))
     if st.button("About"):
-      st.text("Developed by Ayushi mangal")
-      st.text("Head , Department of Computer Engineering")
+      st.text("Developed by Kritika Tiwari")
+      st.text("Student of Computer Engineering")
 
 if __name__=='__main__':
   main()
